@@ -1,0 +1,52 @@
+body {
+	background:linear-gradient(black, #181818);
+	color:white;
+}
+#butterflyVideo {
+	display:block;
+	position:absolute;
+	height:65%;
+	width:65%;
+	left:30%;
+	top:8%;
+	z-index:2;
+}
+h1 {
+	position:relative;
+	font-family:Barriecito;
+	font-weight:bold;
+	font-size:100px;
+	text-align:right;
+	padding-right:45%;
+	line-height:105px;
+	z-index:3;
+}
+h2 {
+	font-family:Syncopate;
+	padding-left:10%;
+	padding-top:1%;
+	position:absolute;
+	z-index:3;
+}
+section {
+	font-family:Syncopate;
+	padding-left:25%;
+	padding-bottom:10px;
+	position:relative;
+	z-index:3;
+}
+div {
+	padding-top:2%;
+	font-family:Syncopate;
+	text-align:right;
+	padding-right:4%;
+	position:relative;
+	z-index:3;
+}
+footer {
+	font-family:Syncopate;
+	padding-left:25%;
+	padding-top:50px;
+	position:relative;
+	z-index:3;
+}
