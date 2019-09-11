@@ -1,0 +1,54 @@
+body {
+	background-color:#220202;
+	font-family:Ubuntu, Helvetica, sans-serif;
+	color:white;
+	font-size:16px;
+}
+h1 {
+	text-transform:uppercase;
+	text-align:right;
+	font-weight:bold;
+	line-height:.5;
+	font-size:8em
+}
+.a {
+	color:white;
+	padding-right:50%;
+	letter-spacing:15px;
+}
+.b {
+	color:white;
+	padding-right:25%;
+	letter-spacing:15px;
+}
+h2 {
+	padding-left:15%;
+	padding-right:15%;
+	font-size:1.3em;
+}
+main {
+	padding-top:30px;
+	padding-left:15%;
+}
+span {
+	color:#B50808;
+}
+.fontWeight {
+	font-weight:bold;
+}
+.fontStyle {
+	font-style:italic;
+}
+.letterSpacing {
+	letter-spacing:3px;
+}
+.textTransform {
+	text-transform:uppercase;
+}
+.textDecoration {
+	text-decoration:line-through;
+}
+footer {
+	padding-top:30px;
+	text-align:center;
+}
