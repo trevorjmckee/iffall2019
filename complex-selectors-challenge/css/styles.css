@@ -186,10 +186,10 @@ ul li a div {
 ul li a > div {
 	font-weight:bold;
 }
-#game-of-thrones ul:first-of-type li:last-of-type:after {
+#game-of-thrones section.seasons ul:first-of-type li:last-of-type:after {
 	content:"*";
 }
-#game-of-thrones ul:first-of-type:after {
+#game-of-thrones section.seasons ul:first-of-type:after {
 	display:block;
 	content:"* Final Season";
 	font-size:0.7rem;
