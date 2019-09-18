@@ -45,4 +45,6 @@ ul li a > div {
 #game-of-thrones ul:first-of-type:after {
 	display:block;
 	content:"* Final Season";
+	font-size:0.7rem;
+	color:#999;
 }
