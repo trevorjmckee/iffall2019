@@ -1,0 +1,47 @@
+body {
+	font-family: Archivo Narrow;
+}
+h1 {
+	text-align: center;
+	font-size: 60pt;
+	margin-top: 150px;
+	margin-bottom: 0px;
+}
+h2 {
+	text-align: center;
+	font-size: 25pt;
+	margin-top: 0px;
+	margin-bottom: 215px;
+}
+h3 {
+	text-align: center;
+	font-size: 33pt;
+}
+section {
+	margin-left: 14%;
+}
+.main {
+	margin-left: 14%;
+	margin-right: 14%;
+	font-size: 13pt;
+}
+.images {
+	display: block;
+	float: left;
+}
+#imageOne {
+	float:right;
+	margin-left:40px;
+	margin-bottom:25px;
+}
+#final {
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 18pt;
+}
+#copyright {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15%;
+}
