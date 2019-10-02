@@ -1,47 +1,118 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
 body {
 	font-family: Archivo Narrow;
+	margin: 0;
+	padding: 0;
 }
+
+header {
+	color:white;
+	margin: 0;
+	padding: 0;
+	height: 480px;
+	background-image: url("../images/tree.jpg");
+	background-position: center;
+}
+
 h1 {
 	text-align: center;
-	font-size: 60pt;
-	margin-top: 150px;
+	font-size: 77px;
+	padding-top: 152px;
 	margin-bottom: 0px;
+	letter-spacing: 2.9px;
 }
+
 h2 {
 	text-align: center;
-	font-size: 25pt;
-	margin-top: 0px;
-	margin-bottom: 215px;
+	font-size: 24pt;
+	margin: 0;
 }
+
 h3 {
 	text-align: center;
-	font-size: 33pt;
+	font-size: 29pt;
+	letter-spacing: 1.4px;
+	margin-bottom: 33px;
 }
-section {
-	margin-left: 14%;
+
+h4{
+	font-size:20px;
+	margin: 0 0 5px 0;
 }
-.main {
-	margin-left: 14%;
-	margin-right: 14%;
-	font-size: 13pt;
+
+section > div {
+	width: 960px;
+	margin: auto;
+	padding: 40px 0px 42px 0px;
 }
-.images {
-	display: block;
+
+.sectionOne {
+	background-color: #F5CDCD;
+}
+
+.sectionTwo {
+	background-color: white;
+}
+
+.sectionThree {
+	height: 400px;
+	background-color: #F5CDCD;
+}
+
+.mainText {
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+
+.sectionThreeContent {
+	width: 702px;
+}
+
+ul {
+	margin: 0;
+	padding: 0; 
+}
+
+li {
+	display: inline-block;
+	width: 50%;
+	height: 174px;
+	padding-right: 25px;
+	box-sizing: border-box;
+}
+
+li img {
+	width:200px;
+	height:150px;
 	float: left;
+	margin-right: 12px;
 }
+
+li p {
+	margin: 0;
+	height: 150px;
+	font-size: 18px;
+}
+
 #imageOne {
 	float:right;
 	margin-left:40px;
 	margin-bottom:25px;
 }
+
 #final {
 	text-align: center;
-	margin-left: 25%;
-	margin-right: 25%;
-	font-size: 18pt;
+	font-size: 19pt;
+	line-height: 35px;
 }
-#copyright {
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 15%;
+
+footer {
+	width: 960px;
+	margin: auto;
+	padding: 39px 0 30px 0;
+	font-size: 18px;
+	background-color: white;
 }
