@@ -1,0 +1,468 @@
+body {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+#mainContent {
+	margin: 40px;
+}
+
+
+h1 {
+ 	font-size: 30px;
+}
+
+h2 {
+	font-size: 15px;
+	color: #494949;
+	margin-bottom: 40px;
+}
+
+
+.buttonContainer {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+/* Coca Cola */
+#cocaColaContainer {
+	padding-top: 100px;
+}
+
+#cocaColaImgOne {
+	width: 220px;
+	height: 75px;
+}
+
+#cocaColaImgTwo {
+	width: 220px;
+	height: 75px;
+	opacity: 0;
+}
+
+a#btn_cocaCola {
+
+}
+
+a#btn_cocaCola:hover {
+	background-color: black;
+	padding: 100px 10px 30px 15px;
+	transition: 1s;
+	transition-timing-function: ease;
+}
+
+a#btn_cocaCola:hover #cocaColaImgOne {
+	-webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 2s; /* Firefox < 16 */
+    -ms-animation: fadeout 2s; /* Internet Explorer */
+    -o-animation: fadeout 2s; /* Opera < 12.1 */
+    animation: fadeout 2s;
+    display: none;
+}
+
+a#btn_cocaCola:hover #cocaColaImgTwo {
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+
+/* Apple */
+#appleContainer {
+	padding-top: 83px
+}
+
+a#btn_apple {
+	color: black;
+	font-size: 5em;
+	padding: 500px 0px;
+	transition: 1.5s;
+	transition-timing-function: ease;
+}
+
+a#btn_apple:hover {
+	color: white;
+	background-color: black;
+	padding: 0 1em;
+	transition: 1.5s;
+	transition-timing-function: ease;
+}
+
+
+/* Michael Kors */
+#michaelKorsContainer {
+	padding-top: 140px;
+}
+
+#michaelKorsImgOne {
+	width: 200px;
+	height: 20px;
+}
+
+a#btn_michaelKors {
+	padding: 0px;
+	padding-bottom: 0px;
+	border: 2px solid rgba(0, 0, 0, 0);
+}
+
+a#btn_michaelKors:hover {
+	padding: 20px 4px 10px 7px;
+	border: 2px solid rgba(0, 0, 0, 1);
+	transition: 1s;
+	transition-timing-function: ease;
+}
+
+
+/* Ideo */
+#ideoContainer {
+	padding-top: 65px;
+}
+
+#ideoImgOne {
+	width: 200px;
+	height: 100px;
+}
+
+#ideoImgTwo {
+	width: 100px;
+	height: 20px;
+	padding-top: 10px;
+	transition-timing-function: ease;
+	opacity: 0;
+}
+
+a#btn_ideo {
+	color: black;
+	text-decoration: none;
+}
+
+a#btn_ideo:hover #ideoImgTwo {
+	opacity: 1;
+	padding-top: 0;
+	transition: .75s;
+	transition-timing-function: ease;
+}
+
+
+/* Lyft */
+#lyftContainer {
+	padding-top: 85px;
+}
+
+#lyftImgOne {
+	width: 200px;
+	height: 100px;
+	display: inline;
+}
+
+#lyftImgTwo {
+	width: 200px;
+	height: 100px;
+	display: none;
+}
+
+a#btn_lyft {
+	
+}
+
+a#btn_lyft:hover {
+	background-color: rgb(255, 0 ,191);
+	padding: 100px 20px 0px 20px;
+	box-shadow: 8px 8px 8px 0px rgba(50, 50, 50, 0.1);
+	transition: 1s;
+	transition-timing-function: ease;
+}
+
+a#btn_lyft:hover #lyftImgOne {
+	display: none;
+}
+
+a#btn_lyft:hover #lyftImgTwo {
+	display: inline;
+}
+
+/* Samsung */
+#samsungContainer {
+	padding-top: 115px;
+}
+
+#samsungImgOne {
+	width: 200px;
+	height: 50px;
+	display: inline;
+}
+
+a#btn_samsung {
+
+}
+
+a#btn_samsung:hover {
+	border-bottom: 5px solid rgb(15, 55, 168);
+}
+
+
+/* Cartoon Network */
+#cartoonNetworkContainer {
+	padding-top: 80px;
+}
+
+#cartoonNetworkImgOne {
+	width: 200px;
+	height: 120px;
+}
+
+#cartoonNetworkImgTwo {
+	width: 200px;
+	height: 120px;
+	display: none;
+}
+
+a#btn_cartoonNetwork {
+
+}
+
+a#btn_cartoonNetwork:hover #cartoonNetworkImgOne {
+	display: none;
+}
+
+a#btn_cartoonNetwork:hover #cartoonNetworkImgTwo {
+	display: inline-block;
+}
+
+
+/* All on the Line */
+#allOnTheLineContainer {
+	padding-top: 120px;
+}
+
+#allOnTheLineImgOne {
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+}
+
+a#btn_allOnTheLine {
+
+}
+
+a#btn_allOnTheLine:hover #allOnTheLineImgOne {
+	border: 2px solid black;
+}
+
+
+/* Nike */
+#nikeContainer {
+	padding-top: 100px;
+}
+
+#nikeImgOne {
+	width: 200px;
+	height: 80px;
+}
+
+a#btn_nike {
+	background-color: white;
+	padding: 10px 20px;
+	transition: 1s;
+}
+
+a#btn_nike:hover #nikeImgOne {
+	background-color: yellow;
+	border-radius: 6px;
+	transition: 1s;
+}
+
+
+/* Tesla */
+#teslaContainer {
+	padding-top: 50px;
+}
+
+#teslaImgOne {
+	width: 150px;
+	height: 200px;
+}
+
+#teslaImgTwo {
+	width: 150px;
+	height: 200px;
+	display: none;
+}
+
+a#btn_tesla:hover #teslaImgTwo {
+	display: inline-block;
+}
+
+a#btn_tesla:hover #teslaImgOne {
+	display: none;
+}
+
+
+/* The Color Run */
+#theColorRunContainer {
+	padding-top: 50px;
+}
+
+#theColorRunImgOne {
+	width: 200px;
+	height: 200px;
+}
+
+#theColorRunImgTwo {
+	width: 200px;
+	height: 200px;
+	display: none;
+}
+
+a#btn_theColorRun {
+
+}
+
+a#btn_theColorRun:hover #theColorRunImgOne {
+	display: none;
+}
+
+a#btn_theColorRun:hover #theColorRunImgTwo {
+	display: inline-block;
+}
+
+
+/* Fitbit */
+a#btn_fitbit {
+
+}
+
+a#btn_fitbit:hover {
+	padding: 250px 0px 0px 0px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+/* Mollyjogger */
+#mollyjoggerContainer {
+	padding-top: 115px;
+}
+
+#mollyjoggerImgOne {
+	padding-top: 15px;
+	width: 250px;
+	height: 35px;
+}
+
+#mollyjoggerImgTwo {
+	width: 250px;
+	height: 80px;
+	opacity: 0;
+}
+
+a#btn_mollyjogger {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+a#btn_mollyjogger:hover #mollyjoggerImgOne {
+	-webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 2s; /* Firefox < 16 */
+    -ms-animation: fadeout 2s; /* Internet Explorer */
+    -o-animation: fadeout 2s; /* Opera < 12.1 */
+    animation: fadeout 2s;
+    display: none;
+}
+
+a#btn_mollyjogger:hover #mollyjoggerImgTwo {
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+
+/* The New Yorker */
+#newYorkerContainer {
+	padding-top: 50px;
+}
+
+#newYorkerImgOne {
+	width: 200px;
+	height: 200px;
+}
+
+#newYorkerImgTwo {
+	padding-top: 45px;
+	width: 250px;
+	height: 100px;
+	opacity: 0;
+}
+
+a#btn_theNewYorker {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+a#btn_theNewYorker:hover #newYorkerImgOne {
+	-webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeout 2s; /* Firefox < 16 */
+    -ms-animation: fadeout 2s; /* Internet Explorer */
+    -o-animation: fadeout 2s; /* Opera < 12.1 */
+    animation: fadeout 2s;
+    display: none;
+}
+
+a#btn_theNewYorker:hover #newYorkerImgTwo {
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+
+/* Facebook */
+#facebookContainer {
+	padding-top: 90px;
+}
+
+a#btn_facebook {
+	font-size: 60pt;
+	color: #3b5998;
+	transition-timing-function: ease;
+}
+
+a#btn_facebook:hover {
+	color: white;
+	background-color: #3b5998;
+	padding: 0px 25px 5px 25px;
+	border-radius: 5px;
+	transition: 1s;
+}
