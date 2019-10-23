@@ -1,0 +1,33 @@
+body {
+	margin: 5%;
+	padding: 0;
+	color: white;
+	background-color: black;
+	font-family: mongoose, sans-serif;
+}
+
+h1 {
+	font-family: flegrei;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: filicudi-solid;
+}
+
+li {
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.5em;
+	letter-spacing: 2pt;
+}
+
+ul, ol {
+	margin-bottom: 3em;
+}
+
+footer {
+	font-size: 1.2em;
+	text-align: center;
+	letter-spacing: 2pt;
+}
