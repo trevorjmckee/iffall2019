@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: brandon-grotesque, sans-serif;
+	font-size: 1.2em;
+}
+
+h1, h2, ol, ul, p {
+	margin: 0 10% 0 10%;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 4em;
+	line-height: 1em;
+	padding-bottom: 0px;
+}
+
+#source {
+	padding-bottom: 40px;
+}
+
+span p {
+	text-align: center;
+	font-weight: 300;
+}
+
+span p strong {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 700;
+	padding: 60px 0 20px 0;
+	font-size: 2em;
+}
+
+h2:first-of-type {
+	padding-bottom: 0;
+	font-weight: 300;
+}
+
+ul:first-of-type li, ul li a:hover, ul li a:visited, ul li a:active {
+	color: black;
+	font-weight: 900;
+	text-decoration: underline;
+	list-style-type: none;
+}
+
+p {
+	font-weight: 500;
+}
+
+ol {
+	font-weight: 500;
+}
+
+li {
+	padding: 0 0 15px 0;
+}
+
+strong {
+	font-weight: 900;
+}
+
+img {
+	width: 100%;
+	padding-top: 80px;
+}
+
+img:first-of-type {
+	padding-top: 0;
+}
+
+div {
+	padding: 80 0 50 0;
+}
+
+footer {
+	text-align: center;
+	padding: 30px 0 35px 0;
+}
