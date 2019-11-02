@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+h2 {
+	text-align: left;
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+.desktop {
+	width: 280px;
+	height: 200px;
+	padding: 10px 30px 5px 30px;
+}
+
+.mobile {
+	height: 280px;
+	width: 200px;
+	padding: 10px 30px 5px 30px;
+}
+
+hr {
+	margin-top: 40px;
+}
+
+footer {
+	font-size: 10pt;
+}
