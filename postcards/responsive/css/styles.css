@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%
+}
+
+div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
+
+span {
+	color: white;
+	width: 70%;
+	position: absolute;
+	left: 7%;
+	top: 70%;
+	z-index: 15;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: jubilat, serif;
+}
+
+h2 {
+	font-size: 1em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: jubilat-thin,serif;
+}
+
+@media (max-width: 640px) {
+	
+	span {
+		left: 7%;
+		width: 86%;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: .75em;
+	}
+}
