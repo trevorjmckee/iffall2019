@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: trade-gothic-next, sans-serif;
+	color: rgb(56, 35, 0);
+}
+
+
+/*header*/
+header {
+	position: sticky;
+	top: 0;
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid rgb(56, 35, 0);
+	z-index: 25;
+}
+
+h2 {
+	position: relative;
+}
+
+.alignLeft h2 {
+	float: left;
+	top: 18px;
+	left: 50px;
+	font-weight: 300;
+	font-size: 15pt;
+}
+
+.alignRight h2 {
+	float: right;
+	top: 18px;
+	right: 50px;
+	font-weight: 300;
+	font-size: 15pt;
+}
+
+
+/*menu*/
+button.controls {
+	font-size: 15pt;
+	font-weight: 300;
+	border: none;
+}
+
+.contents {
+	display: none;
+	color: white;
+}
+
+.contents a {
+	text-decoration: none;
+}
+
+.contents.open {
+	display: inline-block;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: rgb(56, 35, 0);
+	text-align: right;
+	z-index: 25;
+}
+
+.contents.open h4 {
+	padding: 20px 50px 22px 50px;
+}
+
+.contents.open h4 a {
+	color: white;
+}
+
+aside button {
+	position: relative;
+	float: left;
+	left: 50px;
+	top: 20px;
+}
+
+aside button.controls {
+	background-color: rgb(56, 35, 0);
+	color: #bdbdbd;
+	font-size: 12pt;
+	font-weight: 700;
+}
+
+
+/*content*/
+main {
+	margin: 200px 20% 200px 20%;
+}
+
+h6 {
+	font-size: 30pt;
+}
+
+
+/*footer*/
+footer {
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(56, 35, 0);
+	width: 100%;
+	height: 220px;
+	padding: 30px 50px 30px 50px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	line-height: 18pt;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+div.footerLeft h5 {
+	float: left;
+	top: 30;
+	left: 50;
+	width: 30%;
+}
+
+div.footerRight h5 {
+	float: right;
+	top: 30;
+	right: 50;
+	width: 30%;
+}
+
+footer h5 {
+	color: white;
+}
+
+footer div span.copyright {
+	color: #bdbdbd;
+	font-size: 9pt;
+}
