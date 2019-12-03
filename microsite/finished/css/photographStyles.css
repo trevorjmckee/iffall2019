@@ -113,10 +113,6 @@ div img {
 }
 
 div a span {
-	display: none;
-}
-
-div a:hover span {
 	display: block;
 	position: absolute;
 	width: 320px;
@@ -125,10 +121,19 @@ div a:hover span {
 	left: 0;
 	background-color: rgba(56, 35, 0, .8);
 	z-index: 15;
+	visibility: hidden;
+	opacity: 0;
 	text-align: center;
+	transition-property: opacity visibility;
+	transition-duration: .5s;
 }
 
-div a:hover span h5 {
+div a:hover span {
+	visibility: visible;
+	opacity: 1;
+}
+
+div a span h5 {
 	position: absolute;
 	color: white;
 	font-size: 1.25em;

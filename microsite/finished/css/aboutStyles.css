@@ -130,10 +130,6 @@ div.img img {
 }
 
 div.img a span.title {
-	display: none;
-}
-
-div.img a:hover span.title {
 	display: block;
 	position: absolute;
 	width: 250px;
@@ -142,10 +138,19 @@ div.img a:hover span.title {
 	left: 0;
 	background-color: rgba(56, 35, 0, .8);
 	z-index: 15;
+	visibility: hidden;
+	opacity: 0;
 	text-align: center;
+	transition-property: opacity visibility;
+	transition-duration: .5s;
 }
 
-div.img a:hover span.title h5 {
+div.img a:hover span.title {
+	visibility: visible;
+	opacity: 1;
+}
+
+div.img a span.title h5 {
 	position: absolute;
 	color: white;
 	font-size: 1.25em;
@@ -155,7 +160,7 @@ div.img a:hover span.title h5 {
 	transform: translateY(-50%);
 }
 
-div.img a:hover span.title h5 span.photographer {
+div.img a span.title h5 span.photographer {
 	color: #bdbdbd;
 	font-size: .6em;
 }
