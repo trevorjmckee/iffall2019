@@ -99,6 +99,11 @@ p {
 	max-width: 700px;
 }
 
+#filter {
+	margin: 25px 10% 20px 10%;
+	text-align: center;
+}
+
 div {
 	display: inline-block;
 	position: relative;
